@@ -122,7 +122,7 @@ When your `require('optionator')`, you get a function that takes in a settings o
         default: Maybe String,
         restPositional: Maybe Boolean,
         requried: Maybe Boolean,
-        overrideRequired: Maybe Bookean,
+        overrideRequired: Maybe Boolean,
         dependsOn: Maybe [String] | String,
         description: Maybe String,
         longDescription: Maybe String,
